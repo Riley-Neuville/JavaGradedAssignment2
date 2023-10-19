@@ -44,5 +44,6 @@ public class JobTest {
         Job job1 = new Job("TestJob1",employer,location, positionType, coreCompetency);
         Job job2 = new Job("TestJob2",employer,location, positionType, coreCompetency);
         assertFalse(job1.equals(job2));
+        //comment
     }
 }
